@@ -1,0 +1,12 @@
+train: images/train
+val: images/val
+
+nc: 3
+names: ['sen_đá', 'nha_đam', 'đuôi_công_táo_xanh']
+
+roboflow:
+  workspace: testyolov8-cgtvl
+  project: plant-wwn5g
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/testyolov8-cgtvl/plant-wwn5g/dataset/1
